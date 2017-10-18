@@ -9,7 +9,7 @@ First put in a script tag linking to the javascript file in your html file. In o
 To get the accordion panels that slide out to hid bey default link to the accordion.css file as well in the head of your html file, this will apply the default styles written in the accordion.css file as well which can be overwritten by linking to your own css file in the head below the link to accordion.css. 
 
 The plugin works using two classes, one called “accordion-control” which is always visible and causes the panel to slide in and out of view when clicked, this must be an <a> tag, and “accordion-panel” which is the content that slides into and out of view. 
-Both these classes must be nested in a container such as a <div> or a <ul> tag. For clearer code you may nest the accordion-control and accordion-panel elements together in a container such as an <li> or another <div> tag. 
+Both these classes must be nested in a container such as a div or a ul tag. For clearer code you may nest the accordion-control and accordion-panel elements together in a container such as an li or another div tag. 
 
 Set up for Javascript file
 
